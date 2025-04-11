@@ -1,171 +1,85 @@
-# Xylenix-Gaming-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xylenix Gaming</title>
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0a0a0a;
-      color: #e0e0e0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: white;
     }
     header {
-      background-color: #1f1f1f;
-      padding: 20px;
+      padding: 100px 20px;
       text-align: center;
-      border-bottom: 2px solid #00ffcc;
+      background: linear-gradient(to right, #00ff9d, #00c2ff);
+      color: #121212;
     }
-    h1 {
-      color: #00ffcc;
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 20px;
+    }
+    header a {
+      padding: 10px 20px;
+      background: #121212;
+      color: #00ff9d;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    header a:hover {
+      background: #00ff9d;
+      color: #121212;
     }
     section {
-      padding: 40px 20px;
+      padding: 60px 20px;
       max-width: 900px;
       margin: auto;
     }
-    h2 {
-      color: #00ffcc;
-      border-bottom: 1px solid #00ffcc;
-      padding-bottom: 5px;
+    section h2 {
+      color: #00ff9d;
+      margin-bottom: 20px;
+      text-align: center;
     }
-    a {
-      color: #00ffcc;
-      text-decoration: none;
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #1f1f1f;
-      border-top: 1px solid #333;
+      background-color: #1e1e1e;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Xylenix Gaming</h1>
-    <p>Epic gaming content | Free Fire | FPS | Battle Royale</p>
-  </header>
-
-  <section>
-    <h2>About</h2>
-    <p>Xylenix Gaming is your go-to hub for high-energy gameplay, intense battles, and pro-level tips. If you love Free Fire, FPS, or multiplayer games, you're in the right place.</p>
-  </section>
-
-  <section>
-    <h2>Gameplays & Tips</h2>
-    <p>Explore videos packed with strategies, game sense, and pro insights to help you improve your gameplay and climb the ranks.</p>
-  </section>
-
-  <section>
-    <h2>Headshot Tricks & Strategies</h2>
-    <p>Master precise headshots and smart tactics to dominate your opponents and become the MVP of every match.</p>
-  </section>
-
-  <section>
-    <h2>Live Streams & Room Matches</h2>
-    <p>Join us live for thrilling custom room matches, tournaments, and real-time battles with the Xylenix community.</p>
-  </section>
-
-  <section>
-    <h2>Montages & Challenges</h2>
-    <p>Watch our best moments, epic highlights, and intense challenges — all edited to keep your adrenaline pumping.</p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-    <p>Become part of the Xylenix Army! Never miss a drop:</p>
-    <p><a href="https://www.youtube.com/@XyL_Padai" target="_blank">Subscribe on YouTube</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Xylenix Gaming. All rights reserved.</p>
-  </footer>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Xylenix Gaming</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0a0a0a;
-      color: #e0e0e0;
-    }
-    header {
-      background-color: #1f1f1f;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #00ffcc;
-    }
-    h1 {
-      color: #00ffcc;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #00ffcc;
-      border-bottom: 1px solid #00ffcc;
-      padding-bottom: 5px;
-    }
-    a {
-      color: #00ffcc;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #1f1f1f;
-      border-top: 1px solid #333;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Xylenix Gaming</h1>
-    <p>Epic gaming content | Free Fire | FPS | Battle Royale</p>
-  </header>
-
-  <section>
-    <h2>About</h2>
-    <p>Xylenix Gaming is your go-to hub for high-energy gameplay, intense battles, and pro-level tips. If you love Free Fire, FPS, or multiplayer games, you're in the right place.</p>
-  </section>
-
-  <section>
-    <h2>Gameplays & Tips</h2>
-    <p>Explore videos packed with strategies, game sense, and pro insights to help you improve your gameplay and climb the ranks.</p>
-  </section>
-
-  <section>
-    <h2>Headshot Tricks & Strategies</h2>
-    <p>Master precise headshots and smart tactics to dominate your opponents and become the MVP of every match.</p>
-  </section>
-
-  <section>
-    <h2>Live Streams & Room Matches</h2>
-    <p>Join us live for thrilling custom room matches, tournaments, and real-time battles with the Xylenix community.</p>
-  </section>
-
-  <section>
-    <h2>Montages & Challenges</h2>
-    <p>Watch our best moments, epic highlights, and intense challenges — all edited to keep your adrenaline pumping.</p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-    <p>Become part of the Xylenix Army! Never miss a drop:</p>
-    <p><a href="https://www.youtube.com/@XyL_Padai" target="_blank">Subscribe on YouTube</a></p>
-  </section>
-
-  <footer>
+    <p>Welcome to the world of Free Fire Max & Epic Gameplay!</p>
+    <a href="https://www.youtube.com/@XylenixGaming" target="_blank">Subscribe Now</a>
+  </header>  <section id="about">
+    <h2>About My Channel</h2>
+    <p>Xylenix Gaming is all about Free Fire Max, headshot tips, intense room matches, and pure entertainment. I upload epic clips, gameplay strategies, and fun content every week. Subscribe and join the squad!</p>
+  </section>  <section id="videos">
+    <h2>Latest Videos</h2>
+    <!-- Replace with your latest video embed -->
+    <iframe src="https://www.youtube.com/embed?listType=user_uploads&list=XylenixGaming"></iframe>
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <p>More coming soon! Stay tuned and keep supporting.</p>
+  </section>  <footer>
     <p>&copy; 2025 Xylenix Gaming. All rights reserved.</p>
   </footer>
 </body>
